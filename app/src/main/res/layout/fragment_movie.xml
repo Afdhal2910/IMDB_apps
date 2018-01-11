@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amoi.imdb.test.view.fragment.MovieFragment"
+    android:background="@drawable/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/movie_et"
+        android:text="transformers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/bg_button_square_transparent"
+        android:paddingBottom="10dp"
+        android:paddingLeft="16sp"
+        android:paddingRight="16sp"
+        android:paddingTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textCursorDrawable="@null"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/year_et"
+        android:text="2007"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_button_square_transparent"
+        android:paddingBottom="10dp"
+        android:paddingLeft="16sp"
+        android:paddingRight="16sp"
+        android:paddingTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textCursorDrawable="@null"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/search_btn"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/bg_button_round_white"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Search"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="250dp"/>
+
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/ic_movie"
+            android:title="Movie" />
+        <item
+            android:id="@+id/nav_artist"
+            android:icon="@drawable/ic_artist"
+            android:title="Artist" />
+
+        <item
+            android:id="@+id/nav_song"
+            android:icon="@drawable/ic_music"
+            android:title="Song" />
+
+
+
+
+
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+-->
+</menu>

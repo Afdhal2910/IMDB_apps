@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.amoi.imdb.test.view.fragment.HomeFragment"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+
+    >
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/film1"
+        />
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/film2"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="210dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Coming Soon"
+            android:textSize="40dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="280dp"
+     >
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="217dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/film5"
+            />
+
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="217dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/film6"
+            />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
